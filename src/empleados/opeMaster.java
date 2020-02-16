@@ -37,7 +37,7 @@ public class opeMaster extends operarios{
     
      @Override
     public String mostrar() {
-        String info = super.mostrar()+"\n-Horas extras: "+this.extras;
+        String info = super.mostrar()+"\n-Horas extras: "+this.extras+"\n-Salario: $"+this.salario();
 
         return info;
     }

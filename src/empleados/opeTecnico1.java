@@ -36,8 +36,7 @@ public class opeTecnico1 extends operarios {
     
     @Override
     public String mostrar() {
-        String info = super.mostrar()+"\n-Especialidad: "+this.especialidad;
-
+        String info = super.mostrar()+"\n-Especialidad: "+this.especialidad+"\n-Salario: $"+this.salario();
         return info;
     }
 

@@ -55,5 +55,18 @@ public class directivos extends Empleados {
     public void setValorHora(int valorHora) {
         this.valorHora = valorHora;
     }
+    
+    
+    public int salario() {
+        int nomina = this.valorHora * this.horasDeTrabajo;
+        return nomina;
+    }
+        
+    public String mostrar (){
+        String info = super.mostrar()+"\n-Dependencia: "+this.dependencia+"\n-Antiguedad(meses): "+this.antiguedad+"\n-Horas trabajadas: "
+                +this.horasDeTrabajo+"\n-Valor hora: $"+this.valorHora+ "\n-Salario: $"+this.salario();
+        return info;
+    }
+           
 
 }

@@ -77,7 +77,8 @@ public class Empleados {
 
     public String mostrar() {
 
-        String info = "-Id: " + this.identificacion + "\n-Nombre: " + this.nombre + "\n-Apellido: " + this.apellido;
+        String info = "-Id: " + this.identificacion + "\n-Nombre: " + this.nombre + "\n-Apellido: " + this.apellido + "\n-Dirreción: " + this.dirrecion + "\n-Celular: " + this.celular
+                + "\n-Correo: " + this.correo;
 
         return info;
     }
