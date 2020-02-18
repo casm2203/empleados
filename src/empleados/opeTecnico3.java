@@ -27,18 +27,17 @@ public class opeTecnico3 extends operarios {
     }
 
     @Override
-    public int salario() {
-        int salarioBase = super.salario();
+    public double salario() {
+        double salarioBase = super.salario();
         int prestaciones = 80;
-        int cobroExtra = this.extra * (int) ((salarioBase / 30) * 1.5);
-        int salarioOpe3 = (int) (salarioBase * 1.40) + prestaciones + cobroExtra;
+        double cobroExtra = this.extra * ((salarioBase / 30) * 1.5);
+        double salarioOpe3 = (salarioBase * 1.40) + prestaciones + cobroExtra;
         return salarioOpe3;
     }
 
     @Override
     public String mostrar() {
         String info = super.mostrar() + "\n-Horas extras: " + this.extra + "\n-Salario: $" + this.salario();
-
         return info;
     }
 }

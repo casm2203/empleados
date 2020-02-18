@@ -27,10 +27,10 @@ public class opeTecnico1 extends operarios {
     }
     
     @Override
-    public int salario (){
-        int salarioBase = super.salario();
+    public double salario (){
+        double salarioBase = super.salario();
         int prestaciones = 80;
-        int salarioOpe1 = (int)(salarioBase* 1.20) + prestaciones ;
+        double salarioOpe1 = (salarioBase* 1.20) + prestaciones ;
         return salarioOpe1;
     }
     

@@ -62,8 +62,8 @@ class operarios extends Empleados {
         this.valor = valor;
     }
 
-    public int salario() {
-        int salario = 900;
+    public double salario() {
+        double salario = this.valor *this.horasTrabajadas;
         return salario;
     }
 

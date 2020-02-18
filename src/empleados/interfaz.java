@@ -174,6 +174,7 @@ public class interfaz extends javax.swing.JFrame {
 
         viewDir.setColumns(20);
         viewDir.setRows(5);
+        viewDir.setPreferredSize(new java.awt.Dimension(164, 100));
         viewDir.setVisible(false);
         jScrollPane2.setViewportView(viewDir);
 
