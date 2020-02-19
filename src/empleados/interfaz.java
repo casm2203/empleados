@@ -93,7 +93,7 @@ public class interfaz extends javax.swing.JFrame {
         jLabel27 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Nomina");
+        setTitle("SIGGO Nomina express");
         setLocation(new java.awt.Point(300, 50));
         setResizable(false);
 
